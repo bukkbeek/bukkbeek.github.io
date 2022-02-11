@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0xe9b0c486bf51d8e8ebc2c4b60589b873bf9c4029",
+  "SCAN_LINK": "https://polygonscan.com/address/0xe9b0c486bf51d8e8ebc2c4b60589b873bf9c4029",
+  "NETWORK": {
+    "NAME": "Polygon",
+    "SYMBOL": "Matic",
+    "ID": 137
+  },
+  "NFT_NAME": "Ceylon Panzer League",
+  "SYMBOL": "PL",
+  "MAX_SUPPLY": 999,
+  "WEI_COST": 1000000000000000,
+  "DISPLAY_COST": 0.001,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/ceylon-panzer-league",
+  "SHOW_BACKGROUND": true
+}
