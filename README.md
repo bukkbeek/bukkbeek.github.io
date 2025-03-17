@@ -7,11 +7,11 @@
 
 ## 👋 Welcome to My Portfolio
 
-This repository contains the source code for my personal portfolio website, showcasing my work as a Game Assets Developer specializing in stylized game-ready assets. The site is built using React, TypeScript, and Tailwind CSS, and is hosted on GitHub Pages.
+This repository contains the source code for my personal portfolio website, showcasing my work as a Game Asset Developer specializing in stylized game-ready assets. The site is built using React, TypeScript, and Tailwind CSS, and is hosted on GitHub Pages.
 
 ## 🎮 About Me
 
-I'm BukkBeek (Jude Janitha Niroshan, Dunukumara Udumullage), a freelance Game Assets Developer with a background in zoology. I specialize in creating stylized, low-poly 3D models and game assets with a unique artistic style. My work ranges from environmental assets to character models, all optimized for game development.
+I'm BukkBeek (Jude Janitha Niroshan, Dunukumara Udumullage), a freelance Game Asset Developer with a background in zoology. I specialize in creating stylized, low-poly 3D models and game assets with a unique artistic style. My work ranges from environmental assets to character models, all optimized for game development.
 
 ## 🚀 Portfolio Highlights
 
