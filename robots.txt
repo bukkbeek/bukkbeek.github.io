@@ -1,0 +1,12 @@
+# BUKKBEEK - Professional 3D Asset Developer Portfolio
+# https://bukkbeek.github.io
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://bukkbeek.github.io/sitemap.xml
+
+# Crawl delay suggestion for bots (optional)
+User-agent: *
+Crawl-delay: 1
