@@ -51,24 +51,6 @@ This portfolio is built with:
 - **Instagram**: [bukkbeek](https://www.instagram.com/bukkbeek/)
 - **Email**: bukkbeek3d@gmail.com
 
-## 🛠️ Local Development
-
-To run this project locally:
-
-```bash
-# Clone the repository
-git clone https://github.com/bukkbeek/bukkbeek.github.io.git
-
-# Navigate to the project directory
-cd bukkbeek.github.io
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
-```
-
 ## 📝 License
 
 This project is available as a portfolio showcase. The code structure can be referenced, but the personal branding, images, and content are proprietary.
@@ -76,3 +58,9 @@ This project is available as a portfolio showcase. The code structure can be ref
 ## 🔑 Keywords
 
 GameAssets, 3D, 2D, lowpoly, stylized, game development, Sri Lanka, assets, portfolio, React, TypeScript, Tailwind CSS
+
+---
+
+## 💻 Source Files
+
+This repository contains the finalized portfolio website. If you're interested in using this as a template or exploring the source files, feel free to reach out to me!
