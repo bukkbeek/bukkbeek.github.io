@@ -385,88 +385,95 @@
             font-size: 0.9rem;
         }
 
+
         /* Print Styles */
         @media print {
+            /* --- KEEP THIS ---: Prevents cards breaking across pages */
+            .summary-text, .skill-card, .timeline-item, .project-card {
+                break-inside: avoid;
+            }
+
+            /* --- COMMENT OUT or DELETE MOST OTHER RULES BELOW --- */
+            /*
             :root {
                 --dark-bg: #ffffff;
-                --dark-card: #f0f0f0; /* Light grey for cards */
-                --primary: #007bff; /* Standard blue for print */
+                --dark-card: #f0f0f0;
+                --primary: #007bff;
                 --text-main: #000000;
                 --text-secondary: #444444;
                 --link-hover: #0056b3;
             }
 
             body {
-                background-color: var(--dark-bg);
+                background-color: var(--dark-bg); // Causes white background
                 color: var(--text-main);
-                padding: 0.5in; /* Standard print margins */
-                font-size: 10pt; /* Adjust font size for print */
-                max-width: 100%; /* Use full page width */
-                border: none; /* Remove any body border */
+                padding: 0.5in;
+                font-size: 10pt;
+                max-width: 100%; // Removes centered layout
+                border: none;
             }
 
             a {
-                color: var(--primary) !important; /* Ensure links are colored */
-                text-decoration: none !important; /* Remove underlines */
+                color: var(--primary) !important;
+                text-decoration: none !important;
             }
 
-             a[href^="http"]:after, a[href^="mailto"]:after {
-                content: " (" attr(href) ")"; /* Show URLs/emails in print */
+            a[href^="http"]:after, a[href^="mailto"]:after {
+                content: " (" attr(href) ")";
                 font-size: 0.8em;
                 color: #555;
             }
-            /* Hide icons in print if they don't add value */
-             .contact-item i, .skill-title i, .project-icon-container i, .item-description li::before {
-                 /* display: none; */ /* Optionally hide icons */
-                 color: black !important; /* Make icons black */
-             }
-             .item-description li { padding-left: 0.5em; } /* Adjust padding if icon hidden */
-             .item-description li::before { display: inline; content: "- "; left: -0.5em; } /* Replace icon with dash */
+
+            .contact-item i, .skill-title i, .project-icon-container i, .item-description li::before {
+                color: black !important;
+            }
+            .item-description li { padding-left: 0.5em; }
+            .item-description li::before { display: inline; content: "- "; left: -0.5em; }
 
 
             .header, .footer {
                 border-color: #ccc !important;
-                text-align: left; /* Align header/footer left for print */
+                text-align: left;
             }
-             .header h1 { font-size: 20pt; }
-             .header .job-title { font-size: 14pt; color: black !important; }
-             .header .tagline { font-size: 10pt; }
-             .contact-info { justify-content: flex-start; gap: 0.5rem 1.5rem; margin: 0.5rem 0; }
-             .contact-item { font-size: 9pt; color: black !important; }
+            .header h1 { font-size: 20pt; }
+            .header .job-title { font-size: 14pt; color: black !important; }
+            .header .tagline { font-size: 10pt; }
+            .contact-info { justify-content: flex-start; gap: 0.5rem 1.5rem; margin: 0.5rem 0; }
+            .contact-item { font-size: 9pt; color: black !important; }
 
 
             .section { margin-bottom: 1.5rem; }
             .section-title-container { margin-bottom: 0.8rem; }
-            .code-tag { display: none; } /* Hide code tags in print */
+            .code-tag { display: none; }
             .section-title { font-size: 14pt; color: black !important; border-bottom: 1px solid #ccc; padding-bottom: 0.2rem;}
-            .section-title::after { display: none; } /* Hide underline */
+            .section-title::after { display: none; }
 
 
             .summary-text, .skill-card, .timeline-item, .project-card {
-                background-color: #ffffff !important; /* White background */
-                border: 1px solid #ddd !important; /* Simple border */
-                box-shadow: none !important; /* Remove shadow */
+                background-color: #ffffff !important; // White background for cards
+                border: 1px solid #ddd !important;
+                box-shadow: none !important;
                 padding: 0.8rem;
-                border-radius: 0; /* Remove rounded corners */
-                break-inside: avoid; /* Prevent cards breaking across pages */
+                border-radius: 0;
+                // break-inside: avoid; // Keep this one!
             }
-            .timeline-item::before { display: none; } /* Hide side marker */
+            .timeline-item::before { display: none; }
 
 
             .skills-grid, .project-grid {
-                grid-template-columns: repeat(2, 1fr); /* Adjust columns for print */
+                grid-template-columns: repeat(2, 1fr);
                 gap: 0.8rem;
             }
 
             .skill-item, .project-tag {
-                 background-color: #eee !important;
-                 color: black !important;
-                 border: 1px solid #ccc !important;
-                 font-size: 8pt;
-                 padding: 0.2rem 0.5rem;
+                background-color: #eee !important;
+                color: black !important;
+                border: 1px solid #ccc !important;
+                font-size: 8pt;
+                padding: 0.2rem 0.5rem;
             }
-            
-            .project-icon-container { display: none; } /* Hide generic icons */
+
+            .project-icon-container { display: none; }
             .project-details { padding: 0.8rem; }
             .project-title { font-size: 11pt; }
             .project-description { font-size: 9pt; margin-bottom: 0.5rem; }
@@ -478,10 +485,11 @@
             .item-description li { font-size: 9pt; }
 
             @page {
-                margin: 0.75in; /* Adjust page margins */
+                margin: 0.75in;
             }
+            */
         }
-        
+
         /* Responsive Adjustments */
         @media (max-width: 768px) {
              body { padding: 1rem; }
@@ -841,7 +849,7 @@
                  <span class="item-date">Expected 2026</span>
             </div>
             <div class="item-description">
-                <p>Focusing on [Mention relevant focus if any, e.g., computational biology, ecology], further developing analytical and research skills applicable to complex system design and naturalistic detail in asset creation.</p>
+                <p>Focusing on bird migration and genetics, further developing analytical and research skills simultaneously to pursue a scientific endeavor.</p>
             </div>
         </div>
         
@@ -868,7 +876,7 @@
         document.getElementById('current-year').textContent = new Date().getFullYear();
     </script>
 
-    <a href="resume/resume[bukkbeek].pdf" 
+    <a href="resume_bukkbeek.pdf" 
        style="display: inline-flex;
               justify-content: center;
               align-items: center;
@@ -896,8 +904,8 @@
 
         function downloadPdf() {
             const link = document.createElement('a');
-            link.href = 'resume/resume[bukkbeek].pdf';
-            link.download = 'BukkBeek_Resume.pdf';
+            link.href = 'resume_bukkbeek.pdf';
+            link.download = 'resume_bukkbeek.pdf';
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
