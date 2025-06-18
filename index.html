@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BUKKBEEK | Game Asset Developer</title>
+    <script>
+      // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+      if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark')
+      } else {
+        document.documentElement.classList.remove('dark')
+      }
+    </script>
     <meta name="description" content="Game-ready 3D assets | Environment scene setups | stylized low-poly aesthetic | Available for freelance projects" />
     <meta name="author" content="BUKKBEEK (Jude Janitha Niroshan)" />
     <meta name="keywords" content="hire, 3D asset developer, 3D modeler, game 3D assets, 3D asset creation, custom 3D models, low-poly, 3D artist, stylized 3D assets, game-ready 3D models, freelance 3D modeler, 3D environment artist, 3D character assets, unity 3D assets, unreal engine assets, 3D prop modeler, affordable 3D assets" />
@@ -37,11 +45,6 @@
     
     <!-- Canonical URL -->
     <link rel="canonical" href="https://bukkbeek.github.io/" />
-    
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     
     <!-- Structured Data / Schema.org -->
     <script type="application/ld+json">
@@ -90,8 +93,8 @@
         "knowsAbout": ["3D Modeling", "Game Asset Development", "Low-Poly Art", "Stylized 3D", "Unity", "Unreal Engine", "Blender", "Game Development"]
       }
     </script>
-    <script type="module" crossorigin src="/assets/index-B6ZkVz9t.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DS8ogtYg.css">
+    <script type="module" crossorigin src="/assets/index-qHsVfe5j.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DLxfxS-q.css">
   </head>
 
   <body>
