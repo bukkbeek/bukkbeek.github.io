@@ -1,12 +1,45 @@
-# BUKKBEEK - Professional 3D Asset Developer Portfolio
+# BUKKBEEK - Professional 3D Game Asset Developer Portfolio
 # https://bukkbeek.github.io
+# Specializing in low-poly stylized 3D models and game-ready assets
+# Available for freelance projects and studio collaboration
 
+# Allow all search engines
 User-agent: *
 Allow: /
+Allow: /images/
+Allow: /icons-color/
+Allow: /public/
+Allow: /codeBlocks/
+
+# Disallow unnecessary paths
+Disallow: /src/
+Disallow: /node_modules/
+Disallow: /*.json
+Disallow: /*.ts
+Disallow: /*.js$
+Disallow: /vite.config.*
+Disallow: /tailwind.config.*
+Disallow: /tsconfig.*
+Disallow: /.git/
+Disallow: /.github/
 
 # Sitemap location
 Sitemap: https://bukkbeek.github.io/sitemap.xml
 
-# Crawl delay suggestion for bots (optional)
+# Crawl delay for good indexing balance
 User-agent: *
 Crawl-delay: 1
+
+# Special handling for major search engines
+User-agent: Googlebot
+Crawl-delay: 1
+
+User-agent: Bingbot
+Crawl-delay: 2
+
+# Social media crawlers
+User-agent: facebookexternalhit/
+Allow: /
+
+User-agent: Twitterbot
+Allow: /

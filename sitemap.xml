@@ -8,13 +8,28 @@
                             http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd">
   <url>
     <loc>https://bukkbeek.github.io/</loc>
-    <lastmod>2025-03-17</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://bukkbeek.github.io/profile_picture.png</image:loc>
-      <image:title>BUKKBEEK - Game Asset Developer</image:title>
-      <image:caption>Game Asset Developer specializing in low-poly stylized models</image:caption>
+      <image:title>BUKKBEEK - Professional 3D Game Asset Developer</image:title>
+      <image:caption>Professional Game Asset Developer specializing in stylized low-poly 3D models and game-ready assets</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://bukkbeek.github.io/images/warminer_ss.png</image:loc>
+      <image:title>Warminer Sci-Fi RTS Game Assets</image:title>
+      <image:caption>Commissioned 3D assets and environments for sci-fi RTS game development</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://bukkbeek.github.io/images/lakeview_bakery.png</image:loc>
+      <image:title>Lakeview Bakery Low-Poly 3D Environment</image:title>
+      <image:caption>Stylized low-poly bakery environment showcasing architectural 3D modeling skills</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://bukkbeek.github.io/images/ceylonblocks_1.JPG</image:loc>
+      <image:title>Ceylon Blocks Sri Lankan Heritage 3D Assets</image:title>
+      <image:caption>Cultural heritage-inspired 3D game assets celebrating Sri Lankan architecture</image:caption>
     </image:image>
   </url>
 </urlset>
