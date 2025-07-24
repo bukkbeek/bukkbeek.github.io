@@ -11,7 +11,7 @@ This repository contains the source code for my personal portfolio website, show
 
 ## 🎮 About Me
 
-I'm BukkBeek (Jude Janitha Niroshan, Dunukumara Udumullage), a freelance Game Asset Developer with a background in zoology. I specialize in creating stylized, low-poly 3D models and game assets with a unique artistic style. My work ranges from environmental assets to character models, all optimized for game development.
+I'm BukkBeek (Jude Janitha Niroshan, Dunukumara Udumullage), a freelance 3D Generalist and VFX Artist with a background in zoology. I specialize in creating stylized, low-poly, and cartoonish 3D models and game assets with a unique artistic style. My work ranges from environmental assets to character models and visual effects, all optimized for game development.
 
 ## 🚀 Portfolio Highlights
 
@@ -22,10 +22,15 @@ I'm BukkBeek (Jude Janitha Niroshan, Dunukumara Udumullage), a freelance Game As
 - **Castle Island** - Fantasy environment with architectural focus
 - **Tanker Truck** - Industrial vehicle model with game-ready optimization
 
-### Game Development Tools
-- **Sprite Builder** - Tool for creating and organizing sprite sheets
-- **PixelBlocks** - Block-based pixel art creation system
-- **PixelTextures** - Procedural texture generation for pixel art games
+### Major Development Tools
+- **Godot Pixel Renderer** - Open-source 3D to pixel art renderer for Godot 4+ (Featured by Games From Scratch)
+- **EffectBlocks VFX Toolkit** - Best-selling low-poly stylized effects pack for Godot
+
+### VFX & Effects Expertise
+- **EffectBlocks VFX Toolkit** - Comprehensive low-poly VFX toolkit for Godot (Community favorite)
+- **Stylized Particle Effects** - Custom cartoonish particle systems for indie games
+- **Godot Shader Effects** - Advanced visual effects and shaders
+- **Low-poly & Cartoonish VFX** - Specialized in stylized visual effects
 
 ### Games
 - **EION** (in development) - Original game concept with unique mechanics
@@ -57,7 +62,7 @@ This project is available as a portfolio showcase. The code structure can be ref
 
 ## 🔑 Keywords
 
-GameAssets, 3D, 2D, lowpoly, stylized, game development, Sri Lanka, assets, portfolio, React, TypeScript, Tailwind CSS
+3D Generalist, VFX Artist, GameAssets, 3D, 2D, lowpoly, low poly, cartoonish, stylized, game development, Sri Lanka, assets, portfolio, React, TypeScript, Tailwind CSS, Godot VFX, EffectBlocks VFX toolkit, Godot Pixel Renderer, Godot 4, particle effects, stylized effects, cartoonish VFX, Ceylon heritage, tropical assets, indie game development, mobile game VFX, stylized game art, cartoonish 3D art
 
 ---
 
