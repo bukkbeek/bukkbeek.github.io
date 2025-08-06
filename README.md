@@ -62,18 +62,7 @@ This project is available as a portfolio showcase. The code structure can be ref
 
 ## 🔑 Keywords
 
-3D Generalist, VFX Artist, GameAssets, 3D, 2D, lowpoly, low poly, cartoonish, stylized, game development, Sri Lanka, assets, portfolio, React, TypeScript, Tailwind CSS, Godot VFX, EffectBlocks VFX toolkit, Godot Pixel Renderer, Godot 4, particle effects, stylized effects, cartoonish VFX, Ceylon heritage, tropical assets, indie game development, mobile game VFX, stylized game art, cartoonish 3D art, freelance 3D modeler, Blender artist, Godot developer, hire 3D modeler, game asset creator, 3D model commission
-
-## 🚀 SEO Optimizations
-
-This portfolio includes comprehensive SEO optimizations:
-- **Enhanced Meta Tags**: Optimized titles, descriptions, and keywords for better search visibility
-- **Structured Data**: Rich schema markup for better search engine understanding
-- **Sitemap**: Complete XML sitemap with all pages and images
-- **Multiple Content Pages**: Services page and blog for targeting long-tail keywords
-- **Internal Linking**: Strategic linking between portfolio sections
-- **Mobile Optimization**: Responsive design for all devices
-- **Fast Loading**: Optimized assets and efficient code structure
+3D Generalist, VFX Artist, GameAssets, 3D, 2D, lowpoly, low poly, cartoonish, stylized, game development, Sri Lanka, assets, portfolio, React, TypeScript, Tailwind CSS, Godot VFX, EffectBlocks VFX toolkit, Godot Pixel Renderer, Godot 4, particle effects, stylized effects, cartoonish VFX, Ceylon heritage, tropical assets, indie game development, mobile game VFX, stylized game art, cartoonish 3D art
 
 ---
 

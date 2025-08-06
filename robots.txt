@@ -10,8 +10,6 @@ Allow: /images/
 Allow: /icons-color/
 Allow: /public/
 Allow: /codeBlocks/
-Allow: /services.html
-Allow: /blog.html
 
 # Disallow unnecessary paths
 Disallow: /src/
