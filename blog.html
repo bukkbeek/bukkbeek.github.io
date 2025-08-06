@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Modeling & Game Development Blog - Bukkbeek | Blender Tips, Godot Tutorials, Game Asset Creation</title>
+    <meta name="description" content="Expert insights on 3D modeling, Blender techniques, Godot game development, and game asset creation. Learn from a professional freelance 3D modeler and game developer." />
+    <meta name="keywords" content="3D modeling tips, Blender tutorials, Godot game development, game asset creation, low-poly modeling, stylized 3D art, freelance 3D artist, game development blog, 3D modeling guide, Blender 3D tips, Godot tutorials, game asset optimization, 3D modeling workflow, Blender for game assets, Godot VFX effects" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="author" content="BUKKBEEK (Jude Janitha Niroshan)" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bukkbeek.github.io/blog.html" />
+    <meta property="og:title" content="3D Modeling & Game Development Blog - Bukkbeek" />
+    <meta property="og:description" content="Expert insights on 3D modeling, Blender techniques, Godot game development, and game asset creation." />
+    <meta property="og:image" content="https://bukkbeek.github.io/profile_picture.png" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://bukkbeek.github.io/blog.html" />
+    <meta property="twitter:title" content="3D Modeling & Game Development Blog - Bukkbeek" />
+    <meta property="twitter:description" content="Expert insights on 3D modeling, Blender techniques, Godot game development, and game asset creation." />
+    <meta property="twitter:image" content="https://bukkbeek.github.io/profile_picture.png" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://bukkbeek.github.io/blog.html" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/profile_picture.png" />
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CD7PQHBGNF"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-CD7PQHBGNF');
+    </script>
+
+    <!-- Structured Data / Schema.org -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        "name": "BUKKBEEK 3D Modeling & Game Development Blog",
+        "description": "Expert insights on 3D modeling, Blender techniques, Godot game development, and game asset creation",
+        "url": "https://bukkbeek.github.io/blog.html",
+        "author": {
+          "@type": "Person",
+          "name": "BUKKBEEK (Jude Janitha Niroshan)",
+          "jobTitle": "Freelance 3D Modeler & Game Developer",
+          "email": "bukkbeek3d@gmail.com"
+        },
+        "publisher": {
+          "@type": "Person",
+          "name": "BUKKBEEK"
+        },
+        "mainEntity": [
+          {
+            "@type": "Article",
+            "headline": "Essential Blender Tips for Game Asset Creation",
+            "description": "Learn professional Blender techniques for creating optimized game assets",
+            "author": {
+              "@type": "Person",
+              "name": "BUKKBEEK"
+            },
+            "datePublished": "2025-01-26",
+            "dateModified": "2025-01-26"
+          },
+          {
+            "@type": "Article", 
+            "headline": "Godot VFX: Creating Stylized Particle Effects",
+            "description": "Step-by-step guide to creating custom VFX effects in Godot",
+            "author": {
+              "@type": "Person",
+              "name": "BUKKBEEK"
+            },
+            "datePublished": "2025-01-26",
+            "dateModified": "2025-01-26"
+          },
+          {
+            "@type": "Article",
+            "headline": "Low-Poly Modeling Techniques for Mobile Games",
+            "description": "Optimization strategies for creating efficient low-poly game assets",
+            "author": {
+              "@type": "Person", 
+              "name": "BUKKBEEK"
+            },
+            "datePublished": "2025-01-26",
+            "dateModified": "2025-01-26"
+          }
+        ]
+      }
+    </script>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background: #f5f5f5;
+      }
+      
+      .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      
+      .header {
+        text-align: center;
+        margin-bottom: 50px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 40px 20px;
+        border-radius: 15px;
+      }
+      
+      .header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+      }
+      
+      .header p {
+        font-size: 1.1rem;
+        opacity: 0.9;
+      }
+      
+      .blog-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+        margin-bottom: 50px;
+      }
+      
+      .blog-card {
+        background: white;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      
+      .blog-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+      }
+      
+      .blog-image {
+        height: 200px;
+        background: linear-gradient(45deg, #667eea, #764ba2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 3rem;
+      }
+      
+      .blog-content {
+        padding: 25px;
+      }
+      
+      .blog-content h3 {
+        color: #667eea;
+        font-size: 1.3rem;
+        margin-bottom: 15px;
+      }
+      
+      .blog-content p {
+        color: #666;
+        margin-bottom: 20px;
+      }
+      
+      .blog-meta {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #999;
+        font-size: 0.9rem;
+      }
+      
+      .read-more {
+        color: #667eea;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      
+      .read-more:hover {
+        text-decoration: underline;
+      }
+      
+      .faq-section {
+        background: white;
+        border-radius: 15px;
+        padding: 40px;
+        margin-bottom: 30px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      }
+      
+      .faq-section h2 {
+        color: #667eea;
+        font-size: 2rem;
+        margin-bottom: 30px;
+        text-align: center;
+      }
+      
+      .faq-item {
+        margin-bottom: 25px;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 20px;
+      }
+      
+      .faq-item:last-child {
+        border-bottom: none;
+      }
+      
+      .faq-question {
+        color: #667eea;
+        font-weight: bold;
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+      }
+      
+      .faq-answer {
+        color: #666;
+        line-height: 1.7;
+      }
+      
+      .back-link {
+        text-align: center;
+        margin-top: 30px;
+      }
+      
+      .back-link a {
+        color: #667eea;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 10px 20px;
+        border: 2px solid #667eea;
+        border-radius: 25px;
+        transition: all 0.3s ease;
+      }
+      
+      .back-link a:hover {
+        background: #667eea;
+        color: white;
+      }
+      
+      @media (max-width: 768px) {
+        .header h1 {
+          font-size: 2rem;
+        }
+        
+        .blog-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>3D Modeling & Game Development Blog</h1>
+        <p>Expert insights, tutorials, and tips from a professional freelance 3D modeler and game developer</p>
+      </div>
+      
+      <div class="blog-grid">
+        <article class="blog-card">
+          <div class="blog-image">🎨</div>
+          <div class="blog-content">
+            <h3>Essential Blender Tips for Game Asset Creation</h3>
+            <p>Learn professional Blender techniques for creating optimized game assets. From topology optimization to UV mapping best practices.</p>
+            <div class="blog-meta">
+              <span>Jan 26, 2025</span>
+              <a href="#" class="read-more">Read More →</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="blog-card">
+          <div class="blog-image">⚡</div>
+          <div class="blog-content">
+            <h3>Godot VFX: Creating Stylized Particle Effects</h3>
+            <p>Step-by-step guide to creating custom VFX effects in Godot. Learn how to make stylized particle systems for your games.</p>
+            <div class="blog-meta">
+              <span>Jan 26, 2025</span>
+              <a href="#" class="read-more">Read More →</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="blog-card">
+          <div class="blog-image">📱</div>
+          <div class="blog-content">
+            <h3>Low-Poly Modeling Techniques for Mobile Games</h3>
+            <p>Optimization strategies for creating efficient low-poly game assets that work perfectly on mobile devices.</p>
+            <div class="blog-meta">
+              <span>Jan 26, 2025</span>
+              <a href="#" class="read-more">Read More →</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="blog-card">
+          <div class="blog-image">🎮</div>
+          <div class="blog-content">
+            <h3>Game Asset Pipeline: From Concept to Implementation</h3>
+            <p>Complete workflow guide for creating game assets from initial concept to final implementation in game engines.</p>
+            <div class="blog-meta">
+              <span>Jan 26, 2025</span>
+              <a href="#" class="read-more">Read More →</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="blog-card">
+          <div class="blog-image">🔧</div>
+          <div class="blog-content">
+            <h3>Asset Optimization for Different Platforms</h3>
+            <p>Learn how to optimize your 3D assets for various platforms including mobile, VR, and desktop games.</p>
+            <div class="blog-meta">
+              <span>Jan 26, 2025</span>
+              <a href="#" class="read-more">Read More →</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="blog-card">
+          <div class="blog-image">💼</div>
+          <div class="blog-content">
+            <h3>Freelancing in Game Development: Getting Started</h3>
+            <p>Essential tips for starting your career as a freelance game developer and 3D artist in the industry.</p>
+            <div class="blog-meta">
+              <span>Jan 26, 2025</span>
+              <a href="#" class="read-more">Read More →</a>
+            </div>
+          </div>
+        </article>
+      </div>
+      
+      <div class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        
+        <div class="faq-item">
+          <div class="faq-question">What software do you use for 3D modeling?</div>
+          <div class="faq-answer">I primarily use Blender for 3D modeling, along with additional tools for texturing and optimization. Blender is excellent for game asset creation due to its powerful modeling tools and free availability.</div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">How long does it take to create a custom 3D model?</div>
+          <div class="faq-answer">The timeline varies depending on complexity. A simple low-poly prop might take 2-4 hours, while a detailed character with rigging could take 20-40 hours. I always provide detailed timelines during project planning.</div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">Do you work with specific game engines?</div>
+          <div class="faq-answer">Yes! I specialize in Godot and Unity, but I can create assets for any game engine. I ensure all assets are properly optimized and include necessary files for easy integration.</div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">What file formats do you provide?</div>
+          <div class="faq-answer">I provide multiple formats including .fbx, .obj, .blend, and engine-specific formats. All assets come with proper UV maps, textures, and documentation for easy implementation.</div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">Can you create stylized art in different styles?</div>
+          <div class="faq-answer">Absolutely! I specialize in stylized low-poly art but can adapt to various styles including cartoonish, realistic, and fantasy aesthetics. I always discuss style requirements during project planning.</div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">Do you offer revisions and support?</div>
+          <div class="faq-answer">Yes, I include revision rounds in all projects and provide ongoing support for asset integration. I want to ensure you're completely satisfied with the final result.</div>
+        </div>
+      </div>
+      
+      <div class="back-link">
+        <a href="/">← Back to Portfolio</a>
+      </div>
+    </div>
+  </body>
+</html> 

@@ -32,4 +32,104 @@
       <image:caption>Cultural heritage-inspired 3D game assets celebrating Sri Lankan architecture</image:caption>
     </image:image>
   </url>
+  
+  <!-- Code Blocks Portfolio Pages -->
+  <url>
+    <loc>https://bukkbeek.github.io/codeBlocks/codeBlocks.html</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://bukkbeek.github.io/codeBlocks/thumbnails/code_blocks.PNG</image:loc>
+      <image:title>Code Blocks - Interactive 3D Asset Showcase</image:title>
+      <image:caption>Interactive portfolio showcasing 3D modeling and game asset development skills</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://bukkbeek.github.io/codeBlocks/particle_simulator.html</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://bukkbeek.github.io/codeBlocks/thumbnails/particle_simulator.gif</image:loc>
+      <image:title>Particle Simulator - VFX and Game Effects</image:title>
+      <image:caption>Advanced particle system simulator demonstrating VFX and game effects capabilities</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://bukkbeek.github.io/codeBlocks/Textorium.html</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://bukkbeek.github.io/codeBlocks/thumbnails/textorium.PNG</image:loc>
+      <image:title>Textorium - Text and Typography Tools</image:title>
+      <image:caption>Text and typography tools for game development and UI design</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://bukkbeek.github.io/codeBlocks/MarkdownBlocks.html</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://bukkbeek.github.io/codeBlocks/thumbnails/md_blocks.PNG</image:loc>
+      <image:title>Markdown Blocks - Documentation Tools</image:title>
+      <image:caption>Markdown documentation tools for game development projects</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- Snapshot Generator Pages -->
+  <url>
+    <loc>https://bukkbeek.github.io/codeBlocks/ss_gen/snapshot.html</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://bukkbeek.github.io/codeBlocks/thumbnails/snapshot.PNG</image:loc>
+      <image:title>Snapshot Generator - 3D Asset Preview Tool</image:title>
+      <image:caption>Professional 3D asset preview and snapshot generation tool</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://bukkbeek.github.io/codeBlocks/ss_gen/snapshot_code.html</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://bukkbeek.github.io/codeBlocks/thumbnails/snapshot_code.PNG</image:loc>
+      <image:title>Snapshot Code Generator - Development Tools</image:title>
+      <image:caption>Code generation tools for 3D asset development and game engine integration</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- Services Page -->
+  <url>
+    <loc>https://bukkbeek.github.io/services.html</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://bukkbeek.github.io/profile_picture.png</image:loc>
+      <image:title>Hire Bukkbeek - Freelance 3D Modeler & Game Asset Creator</image:title>
+      <image:caption>Professional freelance 3D modeling and game asset creation services</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- Blog Page -->
+  <url>
+    <loc>https://bukkbeek.github.io/blog.html</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://bukkbeek.github.io/profile_picture.png</image:loc>
+      <image:title>3D Modeling & Game Development Blog - Bukkbeek</image:title>
+      <image:caption>Expert insights on 3D modeling, Blender techniques, and Godot game development</image:caption>
+    </image:image>
+  </url>
 </urlset>
