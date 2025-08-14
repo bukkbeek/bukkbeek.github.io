@@ -225,13 +225,8 @@
                 <input type="text" id="windowTitle" placeholder="Window Title" style="width: 100%;">
             </div>
             <div class="header-controls">
-                <div class="toggle-container">
-                    <span class="toggle-label">Light</span>
-                    <label class="toggle">
-                        <input type="checkbox" id="themeToggle" checked>
-                        <span class="slider"></span>
-                    </label>
-                    <span class="toggle-label">Dark</span>
+        <div class="toggle-container" title="Theme locked to Dark">
+                    <span class="toggle-label">Dark only</span>
                 </div>
                 <div class="padding-input">
                     <span>Padding:</span>
@@ -274,7 +269,7 @@
         const mockWindow = document.getElementById('mockWindow');
         const titleText = document.getElementById('titleText');
         const windowTitle = document.getElementById('windowTitle');
-        const themeToggle = document.getElementById('themeToggle');
+        // const themeToggle = document.getElementById('themeToggle');
         const windowPadding = document.getElementById('windowPadding');
         const titlebar = document.getElementById('titlebar');
         const windowContent = document.getElementById('windowContent');
@@ -315,7 +310,7 @@
         downloadBtn.addEventListener('click', downloadScreenshot);
         
         windowTitle.addEventListener('input', updateWindowTitle);
-        themeToggle.addEventListener('change', updateTheme);
+        // theme locked to dark
         windowPadding.addEventListener('input', updatePadding);
         
         // Functions
@@ -352,21 +347,11 @@
         }
         
         function updateTheme() {
-            const isDarkMode = themeToggle.checked;
-            
-            if (isDarkMode) {
-                // Dark mode
-                titlebar.style.background = 'linear-gradient(to bottom, #373737, #2a2a2a)';
-                titlebar.style.borderBottom = '1px solid #000000';
-                titleText.style.color = '#ffffff';
-                windowContent.style.backgroundColor = '#1e1e1e';
-            } else {
-                // Light mode
-                titlebar.style.background = 'linear-gradient(to bottom, #ebebeb, #d5d5d5)';
-                titlebar.style.borderBottom = '1px solid #b1b1b1';
-                titleText.style.color = '#333333';
-                windowContent.style.backgroundColor = 'transparent';
-            }
+            // Force dark
+            titlebar.style.background = 'linear-gradient(to bottom, #373737, #2a2a2a)';
+            titlebar.style.borderBottom = '1px solid #000000';
+            titleText.style.color = '#ffffff';
+            windowContent.style.backgroundColor = '#1e1e1e';
         }
         
         function updatePadding() {

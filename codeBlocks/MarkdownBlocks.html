@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="dark">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MarkdownBlocks</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github.min.css"
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/monokai-sublime.min.css"
     id="code-theme">
   <style>
     :root {
@@ -639,7 +639,7 @@
         </button>
       </div>
       <div class="toolbar-group">
-        <button id="theme-toggle" class="btn" title="Toggle Dark/Light Mode">
+        <button id="theme-toggle" class="btn" title="Theme locked to Dark" disabled>
           <svg class="btn-icon light-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <circle cx="12" cy="12" r="5"></circle>
@@ -1134,23 +1134,11 @@
         input.click();
       });
   
-      themeToggle.addEventListener('click', function () {
-        const currentTheme = document.documentElement.dataset.theme;
-        const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-        document.documentElement.dataset.theme = newTheme;
-  
-        // Toggle icon visibility
-        lightIcon.style.display = newTheme === 'dark' ? 'none' : 'inline';
-        darkIcon.style.display = newTheme === 'light' ? 'none' : 'inline';
-  
-        // Update code theme
-        const codeThemeLink = document.getElementById('code-theme');
-        codeThemeLink.href = newTheme === 'dark'
-          ? 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/monokai-sublime.min.css'
-          : 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github.min.css';
-  
-        localStorage.setItem('preferred-theme', newTheme); // Persist theme preference
-      });
+      // Lock to dark theme
+      document.documentElement.dataset.theme = 'dark';
+      try { localStorage.setItem('preferred-theme', 'dark'); } catch (e) {}
+      if (lightIcon) lightIcon.style.display = 'none';
+      if (darkIcon) darkIcon.style.display = 'inline';
   
       // Local Storage Persistence
       function loadContent() {
@@ -1176,15 +1164,13 @@
       });
   
       // Load preferred theme from local storage
-      const preferredTheme = localStorage.getItem('preferred-theme') || 'light';
+      const preferredTheme = 'dark';
       document.documentElement.dataset.theme = preferredTheme;
-      lightIcon.style.display = preferredTheme === 'dark' ? 'none' : 'inline';
-      darkIcon.style.display = preferredTheme === 'light' ? 'none' : 'inline';
-  
+      if (lightIcon) lightIcon.style.display = 'none';
+      if (darkIcon) darkIcon.style.display = 'inline';
+
       const codeThemeLink = document.getElementById('code-theme');
-      codeThemeLink.href = preferredTheme === 'dark'
-        ? 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/monokai-sublime.min.css'
-        : 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github.min.css';
+      codeThemeLink.href = 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/monokai-sublime.min.css';
   
       loadContent(); // Load content on page load
   

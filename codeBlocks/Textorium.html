@@ -328,7 +328,7 @@
     }
   </style>
 </head>
-<body>
+<body class="dark-mode">
   <div class="header">
     <div class="header-title">Textorium</div>
   </div>
@@ -348,8 +348,8 @@
           <input type="file" id="fileInput" accept=".md, .markdown, .txt">
         </div>
         
-        <!-- Toggle Theme Button -->
-        <button id="toggleTheme" class="control-button" title="Toggle Dark/Light Mode">
+        <!-- Theme locked to dark -->
+        <button id="toggleTheme" class="control-button" title="Theme locked to Dark" disabled>
           <svg viewBox="0 0 24 24">
             <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z"></path>
           </svg>
@@ -581,12 +581,9 @@
       });
     }
 
-    // Toggle dark/light mode
-    toggleTheme.addEventListener('click', () => {
-      document.body.classList.toggle('dark-mode');
-      const isDarkMode = document.body.classList.contains('dark-mode');
-      localStorage.setItem('darkMode', isDarkMode);
-    });
+    // Lock to dark mode
+    document.body.classList.add('dark-mode');
+    try { localStorage.setItem('darkMode', true); } catch (e) {}
 
     // Toggle sans/serif font
     toggleFont.addEventListener('click', () => {
@@ -618,9 +615,7 @@
     }
 
     // Initialize theme and font from localStorage
-    if (localStorage.getItem('darkMode') === 'true') {
-      document.body.classList.add('dark-mode');
-    }
+    document.body.classList.add('dark-mode');
 
     if (localStorage.getItem('serifMode') === 'true') {
       document.body.classList.add('serif-mode');

@@ -5,12 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bukkbeek - Game Assets Developer | Godot Developer | Stylized Low-Poly Game Assets</title>
     <script>
-      // On page load or when changing themes, best to add inline in `head` to avoid FOUC
-      if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-        document.documentElement.classList.add('dark')
-      } else {
-        document.documentElement.classList.remove('dark')
-      }
+      document.documentElement.classList.add('dark');
+      try { localStorage.setItem('theme', 'dark'); } catch (e) {}
+      document.documentElement.style.colorScheme = 'dark';
     </script>
     <meta name="description" content="Professional 3D Generalist and VFX Artist specializing in stylized low-poly 3D models, cartoonish game assets, and Godot VFX effects. Creator of popular EffectBlocks VFX toolkit and Godot Pixel Renderer. Available for freelance projects and studio collaboration." />
     <meta name="author" content="BUKKBEEK (Jude Janitha Niroshan)" />
@@ -261,8 +258,8 @@
         }
       }
     </script>
-    <script type="module" crossorigin src="/assets/index-DGqCA9-q.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DzAWTXOt.css">
+    <script type="module" crossorigin src="/assets/index-DzC0w9nD.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DO91bIhf.css">
   </head>
 
   <body>
