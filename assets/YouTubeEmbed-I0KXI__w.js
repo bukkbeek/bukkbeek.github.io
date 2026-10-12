@@ -1,0 +1,1 @@
+import{j as e}from"./motion-CwomRNqE.js";import{g as a,Y as t}from"./index-d-CSkAst.js";const u=({videoId:o,title:s="YouTube video player",className:r})=>e.jsx("div",{className:a("w-full aspect-video rounded-xl overflow-hidden bg-gray-800 flex items-center justify-center",r),children:e.jsx(t,{videoId:o,title:s})});export{u as Y};

@@ -1,0 +1,48 @@
+# BUKKBEEK — Jude Udumullage, 3D game artist & Godot developer
+
+> Freelance 3D generalist, VFX artist and Godot developer based in Ontario, Canada
+> (originally Sri Lanka). Creator of the Godot asset packs **EffectBlocks** and
+> **NatureBlocks**, plus **Ceylon Blocks** and the open-source **Godot Pixel
+> Renderer**. Portfolio: stylized, low-poly, game-ready 3D assets, environments
+> and visual effects. Available for commissions.
+
+- Email: bukkbeek3d@gmail.com
+- Site: https://bukkbeek.github.io/
+- Detailed plain-text summary: https://bukkbeek.github.io/llms-full.txt
+
+## Godot asset packs
+
+- [EffectBlocks](https://bukkbeek.itch.io/effectblocks): 100+ customizable low-poly stylized 3D VFX effects for Godot — fire, smoke, explosions, magic, energy, decals, space.
+- [NatureBlocks](https://bukkbeek.itch.io/natureblocks): 500+ stylized nature assets for Godot with procedural terrain generation, vegetation scatter tools, materials, shaders and environment presets.
+- [Ceylon Blocks](https://bukkbeek.itch.io/): free Sri Lankan heritage-inspired low-poly 3D asset collection (cultural architecture, tropical environments).
+
+## Developer tools
+
+- [Godot Pixel Renderer](https://github.com/bukkbeek/GodotPixelRenderer): open-source 3D-to-pixel-art renderer for Godot 4 with frame-by-frame animation export. Featured by Games From Scratch.
+- [Godot FPS Template](https://bukkbeek.itch.io/godot-fps-template): modular FPS starter — movement, weapons, enemy AI, interactables, vehicles.
+- [Godot Terrain Generator](https://bukkbeek.itch.io/godot-terrain-gen): GridMap terrain with tiles, buildings, road networks and procedural forests.
+- [wikiBlocks](https://github.com/bukkbeek/wikiblocks): file-based markdown wiki for personal knowledge bases.
+
+## Games & commissioned work
+
+- [REBEL.101 / Tanks Gone Rogue](https://bukkbeek.itch.io/tanks-gone-rogue): solo-developed dystopian tank combat game — design, programming, 3D art, UI, VFX.
+- [Lancer Tactics](https://wick.itch.io/lancer-tactics): VFX artist — explosions, weapon effects, shields, line effects for the Lancer TTRPG adaptation.
+- Warminer: lead 3D artist on a sci-fi RTS (Unity).
+- EION: dystopian 3D side-scrolling adventure with base building (Godot).
+- Universe Island: game planner and lead 3D designer; flat-shaded low-poly art and trailer.
+- Nomad's Barge: fantasy airship featured in *Bone and Arrow* by Skew Back Studios.
+- Environments: Lakeview Bakery, Forest Ruins, Moon City, Car Factory, Creepy Creams, Space Lab, Underwater VFX.
+
+## Services
+
+- Custom 3D game assets (characters, environments, props, vehicles)
+- Stylized low-poly modelling for mobile, indie and VR
+- Environment art and scene composition
+- VFX, particle and shader work for Godot and Unity
+- Blender-to-Unity / Blender-to-Godot asset integration and optimization
+
+## Optional
+
+- [Full portfolio text](https://bukkbeek.github.io/llms-full.txt): complete descriptions of every project and pack.
+- [Sitemap](https://bukkbeek.github.io/sitemap.xml)
+- [Sketchfab](https://sketchfab.com/bukkbeek), [YouTube](https://www.youtube.com/@bukkbeek), [GitHub](https://github.com/bukkbeek)

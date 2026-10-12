@@ -8,28 +8,98 @@
                             http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd">
   <url>
     <loc>https://bukkbeek.github.io/</loc>
-    <lastmod>2025-01-26</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+
     <image:image>
-      <image:loc>https://bukkbeek.github.io/profile_picture.png</image:loc>
-      <image:title>BUKKBEEK - Professional 3D Game Asset Developer</image:title>
-      <image:caption>Professional Game Asset Developer specializing in stylized low-poly 3D models and game-ready assets</image:caption>
+      <image:loc>https://bukkbeek.github.io/brand/profile-picture.jpg</image:loc>
+      <image:title>BUKKBEEK — Jude Udumullage, 3D game artist and Godot developer</image:title>
+      <image:caption>Freelance 3D generalist and VFX artist specialising in stylized low-poly game assets and Godot tooling</image:caption>
     </image:image>
+
     <image:image>
-      <image:loc>https://bukkbeek.github.io/images/warminer_ss.png</image:loc>
-      <image:title>Warminer Sci-Fi RTS Game Assets</image:title>
-      <image:caption>Commissioned 3D assets and environments for sci-fi RTS game development</image:caption>
+      <image:loc>https://bukkbeek.github.io/images/tools/pixel-renderer-screenshot.webp</image:loc>
+      <image:title>Godot Pixel Renderer — 3D to pixel art tool for Godot 4</image:title>
+      <image:caption>Open-source 3D-to-pixel-art renderer for Godot 4 with frame-by-frame animation export</image:caption>
     </image:image>
+
     <image:image>
-      <image:loc>https://bukkbeek.github.io/images/lakeview_bakery.png</image:loc>
-      <image:title>Lakeview Bakery Low-Poly 3D Environment</image:title>
-      <image:caption>Stylized low-poly bakery environment showcasing architectural 3D modeling skills</image:caption>
+      <image:loc>https://bukkbeek.github.io/images/artwork/ceylon-blocks-1.webp</image:loc>
+      <image:title>Ceylon Blocks — Sri Lankan heritage low-poly 3D assets</image:title>
+      <image:caption>Free cultural heritage game assets celebrating Sri Lankan architecture</image:caption>
     </image:image>
+
     <image:image>
-      <image:loc>https://bukkbeek.github.io/images/ceylonblocks_1.JPG</image:loc>
-      <image:title>Ceylon Blocks Sri Lankan Heritage 3D Assets</image:title>
-      <image:caption>Cultural heritage-inspired 3D game assets celebrating Sri Lankan architecture</image:caption>
+      <image:loc>https://bukkbeek.github.io/images/environments/lakeview-bakery.webp</image:loc>
+      <image:title>Lakeview Bakery — stylized low-poly 3D environment</image:title>
+      <image:caption>Cozy low-poly bakery environment built in Blender from a pixel-art concept</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://bukkbeek.github.io/images/environments/forest-ruins.webp</image:loc>
+      <image:title>Forest Ruins — Godot environment with VFX</image:title>
+      <image:caption>Atmospheric Godot scene with fire, water, fireflies and smoke particle effects</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://bukkbeek.github.io/images/environments/underwater-vfx.webp</image:loc>
+      <image:title>Underwater VFX and shaders for a 2D sidescroller</image:title>
+      <image:caption>Underwater visual effects, lighting and shader work made in Godot</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://bukkbeek.github.io/images/games/warminer-screenshot.webp</image:loc>
+      <image:title>Warminer — sci-fi RTS game assets</image:title>
+      <image:caption>Commissioned 3D assets and environments for a sci-fi real-time strategy game</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://bukkbeek.github.io/images/games/rebel-101-1.webp</image:loc>
+      <image:title>REBEL.101 — solo-developed Godot tank combat game</image:title>
+      <image:caption>Dystopian tank battle game with 3D art, VFX and gameplay by BUKKBEEK</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://bukkbeek.github.io/images/games/eion-1.webp</image:loc>
+      <image:title>EION — dystopian 3D side-scrolling adventure in Godot</image:title>
+      <image:caption>Side-scrolling adventure with base building and strategy elements</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://bukkbeek.github.io/images/games/universe-island-1.webp</image:loc>
+      <image:title>Universe Island — flat-shaded low-poly game environment</image:title>
+      <image:caption>Flat-shaded low-poly art direction for an action-adventure title</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://bukkbeek.github.io/images/environments/moon-city.webp</image:loc>
+      <image:title>Moon City — stylized low-poly Unity environment</image:title>
+      <image:caption>Cohesive low-poly flat-shaded environment integrating third-party assets</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://bukkbeek.github.io/images/environments/car-factory.webp</image:loc>
+      <image:title>Car Factory — automated VR environment in Unity</image:title>
+      <image:caption>Conveyor systems and interactive robotic elements for a VR experience</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://bukkbeek.github.io/images/artwork/material-library.webp</image:loc>
+      <image:title>PBR material library for game development</image:title>
+      <image:caption>Extensive collection of PBR materials made with Substance and Blender</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://bukkbeek.github.io/images/artwork/game-icons.webp</image:loc>
+      <image:title>2D game icon set for mobile and desktop interfaces</image:title>
+      <image:caption>Custom 2D icon set designed in Krita and Inkscape</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://bukkbeek.github.io/images/tools/godot-terrain-generator.webp</image:loc>
+      <image:title>Godot Terrain Generator — procedural terrain tool</image:title>
+      <image:caption>GridMap terrain generator with tiles, roads and procedural forests for Godot</image:caption>
     </image:image>
   </url>
 </urlset>

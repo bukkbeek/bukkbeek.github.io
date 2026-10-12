@@ -1,45 +1,142 @@
-# BUKKBEEK - Professional 3D Game Asset Developer Portfolio
-# https://bukkbeek.github.io
-# Specializing in low-poly stylized 3D models and game-ready assets
-# Available for freelance projects and studio collaboration
+# BUKKBEEK — https://bukkbeek.github.io
+# Portfolio of Jude Udumullage: Godot asset packs (EffectBlocks, NatureBlocks,
+# Ceylon Blocks), stylized low-poly 3D game art, VFX and developer tools.
+#
+# LLM-friendly summary: https://bukkbeek.github.io/llms.txt
+#
+# NOTE: do NOT block /assets/ or *.js — the site is a React app and Googlebot
+# needs those files in order to render the page.
 
-# Allow all search engines
 User-agent: *
 Allow: /
-Allow: /images/
-Allow: /icons-color/
-Allow: /public/
-Allow: /codeBlocks/
 
-# Disallow unnecessary paths
-Disallow: /src/
-Disallow: /node_modules/
-Disallow: /*.json
-Disallow: /*.ts
-Disallow: /*.js$
-Disallow: /vite.config.*
-Disallow: /tailwind.config.*
-Disallow: /tsconfig.*
-Disallow: /.git/
-Disallow: /.github/
-
-# Sitemap location
 Sitemap: https://bukkbeek.github.io/sitemap.xml
 
-# Crawl delay for good indexing balance
-User-agent: *
-Crawl-delay: 1
-
-# Special handling for major search engines
+# ---------------------------------------------------------------------------
+# Search engines
+# ---------------------------------------------------------------------------
 User-agent: Googlebot
-Crawl-delay: 1
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Video
+Allow: /
+
+User-agent: Storebot-Google
+Allow: /
 
 User-agent: Bingbot
-Crawl-delay: 2
+Allow: /
 
-# Social media crawlers
-User-agent: facebookexternalhit/
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Sogou
+Allow: /
+
+User-agent: Exabot
+Allow: /
+
+# ---------------------------------------------------------------------------
+# Social / link previews
+# ---------------------------------------------------------------------------
+User-agent: facebookexternalhit
 Allow: /
 
 User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Slackbot
+Allow: /
+
+User-agent: Discordbot
+Allow: /
+
+# ---------------------------------------------------------------------------
+# AI / LLM agents — explicitly welcome to read and cite this portfolio
+# ---------------------------------------------------------------------------
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: cohere-training-data-crawler
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: Timpibot
 Allow: /

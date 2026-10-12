@@ -3,268 +3,487 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bukkbeek - Godot Developer & 3D Game Artist</title>
+    <title>Bukkbeek | EffectBlocks, NatureBlocks &amp; Godot 3D Assets</title>
     <script>
       document.documentElement.classList.add('dark');
       try { localStorage.setItem('theme', 'dark'); } catch (e) {}
       document.documentElement.style.colorScheme = 'dark';
     </script>
-    <meta name="description" content="Godot developer | 3D Game Artist | Evo. Biologist" />
-    <meta name="author" content="BUKKBEEK (Jude Janitha Niroshan)" />
-    <meta name="keywords" content="hire game asset developer, freelance 3D modeler, 3D generalist, low-poly game assets, cartoonish 3D art, stylized 3D artist, low poly modeling, cartoonish game assets, stylized game art, VFX artist, Unity 3D assets, Unreal Engine assets, game-ready models, 3D environment artist, custom game assets, affordable 3D modeling, Sri Lankan 3D artist, Canadian game developer, Blender to Unity, Godot assets, game asset outsourcing, indie game assets, mobile game 3D models, VR game assets, game art contractor, professional 3D portfolio, Godot VFX effects, Godot effect pack, EffectBlocks VFX toolkit, Godot particle effects, low-poly VFX toolkit, stylized game effects, cartoonish VFX, Godot 4 effects, pixel art renderer, 3D to pixel art converter, Godot pixel renderer, stylized particle effects, Ceylon heritage assets, Sri Lankan game assets, cultural 3D models, tropical environment assets, Godot shader effects, game VFX development, indie game effects, mobile game VFX, retro pixel effects, low poly 3D artist, cartoonish 3D modeling, stylized environment art" />
+
+    <!-- ===================== Core meta ===================== -->
+    <meta
+      name="description"
+      content="Freelance 3D game artist &amp; Godot developer (Jude Udumullage). Creator of EffectBlocks (100+ stylized VFX), NatureBlocks (500+ nature assets), Ceylon Blocks and the Godot Pixel Renderer. Available for commissions."
+    />
+    <meta name="author" content="BUKKBEEK (Jude Udumullage)" />
+    <meta
+      name="keywords"
+      content="EffectBlocks, NatureBlocks, Godot asset pack, Godot VFX, Godot nature assets, Godot terrain generator, hire game asset developer, freelance 3D modeler, 3D generalist, low-poly game assets, stylized 3D artist, cartoonish game assets, game-ready models, 3D environment artist, Blender to Unity, Blender to Godot, game asset outsourcing, indie game assets, mobile game 3D models, VR game assets, Godot effect pack, Godot particle effects, low-poly VFX toolkit, Godot 4 effects, Godot pixel renderer, 3D to pixel art converter, Ceylon Blocks, Sri Lankan game assets, cultural 3D models, tropical environment assets, stylized environment art"
+    />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-    <meta name="googlebot" content="index, follow" />
+    <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#060B1A" />
+
+    <!-- ===================== Classification / locale ===================== -->
+    <meta name="language" content="en" />
     <meta name="geo.region" content="CA-ON" />
-    <meta name="geo.placename" content="Canada" />
+    <meta name="geo.placename" content="Ontario, Canada" />
     <meta name="geo.position" content="43.6532;-79.3832" />
     <meta name="ICBM" content="43.6532, -79.3832" />
-    
-    <!-- Additional SEO Meta Tags -->
-    <meta name="language" content="EN" />
-    <meta name="distribution" content="global" />
-    <meta name="rating" content="general" />
-    <meta name="revisit-after" content="1 days" />
-    <meta name="generator" content="React + Vite" />
-    <meta name="theme-color" content="#1a1a1a" />
-    <meta name="msapplication-TileColor" content="#1a1a1a" />
+
+    <!-- ===================== Canonical & discovery ===================== -->
+    <link rel="canonical" href="https://bukkbeek.github.io/" />
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+    <!-- Machine-readable summary for AI agents / LLM crawlers -->
+    <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM-friendly site summary" />
+    <link rel="author" href="https://bukkbeek.github.io/" />
+    <!-- Identity verification (rel=me) -->
+    <link rel="me" href="https://bsky.app/profile/bukkbeek.github.io" />
+    <link rel="me" href="https://github.com/bukkbeek" />
+    <link rel="me" href="https://bukkbeek.itch.io/" />
+
+    <!-- ===================== Icons ===================== -->
+    <link rel="icon" type="image/jpeg" href="/brand/profile-picture.jpg" />
+    <link rel="apple-touch-icon" href="/brand/profile-picture.jpg" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="apple-mobile-web-app-title" content="BUKKBEEK Game Assets" />
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="/profile_picture.png" />
-    
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CD7PQHBGNF"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    <meta name="application-name" content="BUKKBEEK" />
 
-      gtag('config', 'G-CD7PQHBGNF');
+    <!-- ===================== Fonts ===================== -->
+    <!-- Served via <link> rather than a blocking CSS @import, and only the
+         weights the site actually uses. -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    />
+
+    <!-- ===================== Analytics (deferred) ===================== -->
+    <script>
+      window.addEventListener('load', function () {
+        setTimeout(function () {
+          var s = document.createElement('script');
+          s.async = true;
+          s.src = 'https://www.googletagmanager.com/gtag/js?id=G-CD7PQHBGNF';
+          document.head.appendChild(s);
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){ dataLayer.push(arguments); }
+          window.gtag = gtag;
+          gtag('js', new Date());
+          gtag('config', 'G-CD7PQHBGNF');
+        }, 1200);
+      });
     </script>
 
-    <!-- Open Graph / Facebook -->
+    <!-- ===================== Open Graph ===================== -->
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="BUKKBEEK" />
+    <meta property="og:locale" content="en_US" />
     <meta property="og:url" content="https://bukkbeek.github.io/" />
-    <meta property="og:title" content="BUKKBEEK - 3D Generalist & VFX Artist | Stylized Low-Poly Game Assets" />
-    <meta property="og:description" content="Professional 3D Generalist and VFX Artist specializing in stylized low-poly 3D models, cartoonish game assets, and Godot VFX effects. Creator of popular EffectBlocks VFX toolkit and Godot Pixel Renderer. Available for freelance projects and studio collaboration." />
-    <meta property="og:image" content="https://bukkbeek.github.io/profile_picture.png" />
-    
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://bukkbeek.github.io/" />
-    <meta property="twitter:title" content="BUKKBEEK - 3D Generalist & VFX Artist | Stylized Low-Poly Game Assets" />
-    <meta property="twitter:description" content="Professional 3D Generalist and VFX Artist specializing in stylized low-poly 3D models, cartoonish game assets, and Godot VFX effects. Creator of popular EffectBlocks VFX toolkit and Godot Pixel Renderer. Available for freelance projects and studio collaboration." />
-    <meta property="twitter:image" content="https://bukkbeek.github.io/profile_picture.png" />
-    
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://bukkbeek.github.io/" />
-    
-    <!-- Additional Link Tags -->
+    <meta property="og:title" content="Bukkbeek | EffectBlocks, NatureBlocks &amp; Godot 3D Assets" />
+    <meta
+      property="og:description"
+      content="3D game artist &amp; Godot developer. Creator of EffectBlocks (100+ stylized VFX), NatureBlocks (500+ nature assets), Ceylon Blocks and the Godot Pixel Renderer."
+    />
+    <meta property="og:image" content="https://bukkbeek.github.io/brand/profile-picture.jpg" />
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+    <meta property="og:image:alt" content="BUKKBEEK — 3D game art and Godot asset packs" />
+
+    <!-- ===================== Twitter / X ===================== -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://bukkbeek.github.io/" />
+    <meta name="twitter:title" content="Bukkbeek | EffectBlocks, NatureBlocks &amp; Godot 3D Assets" />
+    <meta
+      name="twitter:description"
+      content="3D game artist &amp; Godot developer. Creator of EffectBlocks (100+ stylized VFX), NatureBlocks (500+ nature assets), Ceylon Blocks and the Godot Pixel Renderer."
+    />
+    <meta name="twitter:image" content="https://bukkbeek.github.io/brand/profile-picture.jpg" />
+    <meta name="twitter:image:alt" content="BUKKBEEK — 3D game art and Godot asset packs" />
+
+    <!-- ===================== Preconnect ===================== -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://i.ytimg.com" />
     <link rel="dns-prefetch" href="//youtube.com" />
     <link rel="dns-prefetch" href="//sketchfab.com" />
     <link rel="dns-prefetch" href="//itch.io" />
     <link rel="dns-prefetch" href="//github.com" />
-    
-    <!-- Structured Data / Schema.org -->
+
+    <!-- ===================== Structured data ===================== -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": ["Person", "CreativeWork", "ProfessionalService"],
-        "name": "BUKKBEEK (Jude Janitha Niroshan)",
-        "alternateName": "BukkBeek",
-        "url": "https://bukkbeek.github.io/",
-        "image": "https://bukkbeek.github.io/profile_picture.png",
-        "sameAs": [
-          "https://sketchfab.com/bukkbeek",
-          "https://bukkbeek.itch.io/",
-          "https://github.com/bukkbeek",
-          "https://www.youtube.com/@bukkbeek",
-          "https://www.facebook.com/bukkbeek/",
-          "https://www.instagram.com/bukkbeek/",
-          "https://bsky.app/profile/bukkbeek.github.io"
-        ],
-        "jobTitle": ["3D Generalist", "VFX Artist", "Game Asset Developer", "3D Modeler", "Freelance Game Artist"],
-        "description": "Professional 3D Generalist and VFX Artist from Sri Lanka, based in Canada, specializing in stylized low-poly 3D models, cartoonish game assets, and Godot VFX effects. Creator of popular EffectBlocks VFX toolkit and Godot Pixel Renderer. Available for freelance projects and studio collaboration.",
-        "worksFor": {
-          "@type": "Organization",
-          "name": "Freelance"
-        },
-        "hasOccupation": {
-          "@type": "Occupation",
-          "name": "Game Asset Developer",
-          "occupationLocation": {
-            "@type": "Country",
-            "name": "Canada"
-          },
-          "skills": ["3D Modeling", "Game Asset Development", "Low-Poly Modeling", "Stylized 3D Art", "Unity Integration", "Unreal Engine Assets", "Blender", "Godot", "Game Development", "Asset Optimization", "VFX", "Animation", "Texturing", "Rigging"]
-        },
-        "alumniOf": {
-          "@type": "CollegeOrUniversity",
-          "name": "Zoology Background"
-        },
-        "birthPlace": {
-          "@type": "Country",
-          "name": "Sri Lanka"
-        },
-        "homeLocation": {
-          "@type": "Country", 
-          "name": "Canada"
-        },
-        "makesOffer": [
+        "@graph": [
           {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Custom 3D Game Assets",
-              "description": "Professional 3D model creation for game development including characters, environments, props, and vehicles",
-              "category": "3D Modeling",
-              "serviceType": "Game Asset Development"
-            },
-            "price": "Contact for Quote",
-            "priceCurrency": "USD",
-            "availability": "Available"
+            "@type": "WebSite",
+            "@id": "https://bukkbeek.github.io/#website",
+            "url": "https://bukkbeek.github.io/",
+            "name": "BUKKBEEK — Godot Asset Packs & 3D Game Art",
+            "description": "Portfolio of Jude Udumullage (BUKKBEEK): Godot asset packs EffectBlocks and NatureBlocks, the Godot Pixel Renderer, and stylized low-poly 3D game art.",
+            "inLanguage": "en",
+            "publisher": { "@id": "https://bukkbeek.github.io/#person" }
           },
           {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service", 
-              "name": "Low-Poly Stylized Modeling",
-              "description": "Optimized low-poly 3D models perfect for mobile games, indie projects, and stylized game aesthetics",
-              "category": "Low-Poly 3D Art",
-              "serviceType": "Game Asset Development"
-            },
-            "price": "Contact for Quote",
-            "priceCurrency": "USD",
-            "availability": "Available"
+            "@type": "ProfilePage",
+            "@id": "https://bukkbeek.github.io/#profilepage",
+            "url": "https://bukkbeek.github.io/",
+            "name": "Bukkbeek | EffectBlocks, NatureBlocks & Godot 3D Assets",
+            "isPartOf": { "@id": "https://bukkbeek.github.io/#website" },
+            "about": { "@id": "https://bukkbeek.github.io/#person" },
+            "mainEntity": { "@id": "https://bukkbeek.github.io/#person" },
+            "inLanguage": "en"
           },
           {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Complete Game Environments",
-              "description": "Full 3D environment design and creation for games including landscapes, buildings, and interactive scenes",
-              "category": "Environment Design",
-              "serviceType": "Game Development"
+            "@type": "Person",
+            "@id": "https://bukkbeek.github.io/#person",
+            "name": "Jude Udumullage",
+            "alternateName": ["Bukkbeek", "BUKKBEEK", "BukkBeek"],
+            "url": "https://bukkbeek.github.io/",
+            "image": "https://bukkbeek.github.io/brand/profile-picture.jpg",
+            "email": "mailto:bukkbeek3d@gmail.com",
+            "jobTitle": ["3D Generalist", "3D Game Artist", "VFX Artist", "Godot Developer", "Game Asset Developer", "3D Modeler"],
+            "description": "Freelance 3D game artist, technical artist and Godot developer from Sri Lanka, based in Ontario, Canada. Creator of the EffectBlocks VFX toolkit, NatureBlocks nature asset series, Ceylon Blocks and the Godot Pixel Renderer.",
+            "knowsLanguage": ["en", "si"],
+            "nationality": { "@type": "Country", "name": "Sri Lanka" },
+            "address": {
+              "@type": "PostalAddress",
+              "addressRegion": "ON",
+              "addressCountry": "CA"
             },
-            "price": "Contact for Quote", 
-            "priceCurrency": "USD",
-            "availability": "Available"
+            "alumniOf": [
+              { "@type": "CollegeOrUniversity", "name": "Western University, Canada" },
+              { "@type": "CollegeOrUniversity", "name": "University of Colombo, Sri Lanka" }
+            ],
+            "worksFor": { "@type": "Organization", "name": "Freelance" },
+            "sameAs": [
+              "https://bukkbeek.itch.io/",
+              "https://github.com/bukkbeek",
+              "https://sketchfab.com/bukkbeek",
+              "https://www.youtube.com/@bukkbeek",
+              "https://bsky.app/profile/bukkbeek.github.io",
+              "https://www.linkedin.com/in/jude-janitha/",
+              "https://www.researchgate.net/profile/Jude-Niroshan",
+              "https://www.facebook.com/bukkbeek/",
+              "https://www.instagram.com/bukkbeek/"
+            ],
+            "knowsAbout": [
+              "Godot asset packs",
+              "EffectBlocks VFX toolkit",
+              "NatureBlocks nature assets",
+              "Ceylon Blocks",
+              "Godot Pixel Renderer",
+              "Godot 4 VFX",
+              "Godot particle effects",
+              "Godot shaders",
+              "procedural terrain generation",
+              "vegetation scattering tools",
+              "3D modeling",
+              "low-poly modeling",
+              "stylized game art",
+              "Blender",
+              "Godot",
+              "Unity",
+              "texturing",
+              "PBR materials",
+              "rigging",
+              "animation",
+              "game asset optimization",
+              "pixel art rendering",
+              "environment art"
+            ],
+            "makesOffer": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Custom 3D game assets",
+                  "description": "Characters, environments, props and vehicles modelled in Blender and optimized for Unity, Godot and Unreal."
+                },
+                "availability": "https://schema.org/InStock"
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Stylized low-poly modelling",
+                  "description": "Optimized low-poly stylized 3D models built for mobile, indie and VR projects."
+                },
+                "availability": "https://schema.org/InStock"
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "VFX & technical art",
+                  "description": "Particle effects, shaders and stylized visual effects for Godot and Unity."
+                },
+                "availability": "https://schema.org/InStock"
+              }
+            ]
           },
           {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Unity & Godot Asset Integration",
-              "description": "Professional integration and optimization of 3D assets for Unity and Godot game engines",
-              "category": "Technical Integration",
-              "serviceType": "Game Development"
-            },
-            "price": "Contact for Quote",
-            "priceCurrency": "USD", 
-            "availability": "Available"
+            "@type": "ProfessionalService",
+            "@id": "https://bukkbeek.github.io/#service",
+            "name": "BUKKBEEK — Game Art & Asset Development",
+            "url": "https://bukkbeek.github.io/",
+            "image": "https://bukkbeek.github.io/brand/profile-picture.jpg",
+            "provider": { "@id": "https://bukkbeek.github.io/#person" },
+            "areaServed": "Worldwide",
+            "serviceType": [
+              "3D asset development",
+              "Low-poly stylized 3D modeling",
+              "Game environment art",
+              "VFX and shader development",
+              "Godot and Unity asset integration"
+            ],
+            "email": "mailto:bukkbeek3d@gmail.com",
+            "sameAs": "https://bukkbeek.itch.io/"
+          },
+          {
+            "@type": "ItemList",
+            "@id": "https://bukkbeek.github.io/#asset-packs",
+            "name": "Godot asset packs and developer tools by BUKKBEEK",
+            "itemListOrder": "https://schema.org/ItemListOrderAscending",
+            "numberOfItems": 4,
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                  "@type": "SoftwareApplication",
+                  "name": "EffectBlocks",
+                  "alternateName": "EffectBlocks — Godot VFX Toolkit",
+                  "applicationCategory": "GameApplication",
+                  "applicationSubCategory": "Game development asset pack",
+                  "operatingSystem": "Godot 4",
+                  "description": "Over 100 customizable low-poly stylized 3D VFX effects for Godot, covering fire, smoke, explosions, magic, energy, decals and space effects.",
+                  "url": "https://bukkbeek.itch.io/effectblocks",
+                  "image": "https://img.youtube.com/vi/svPZOkWt0Z4/hqdefault.jpg",
+                  "author": { "@id": "https://bukkbeek.github.io/#person" },
+                  "offers": {
+                    "@type": "Offer",
+                    "url": "https://bukkbeek.itch.io/effectblocks",
+                    "availability": "https://schema.org/InStock",
+                    "priceCurrency": "USD"
+                  }
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                  "@type": "SoftwareApplication",
+                  "name": "NatureBlocks",
+                  "alternateName": "NatureBlocks — Godot Nature Assets & Terrain Tools",
+                  "applicationCategory": "GameApplication",
+                  "applicationSubCategory": "Game development asset pack",
+                  "operatingSystem": "Godot 4",
+                  "description": "500+ stylized nature assets for Godot with procedural terrain generation, vegetation scatter tools, materials, shaders and ready-made environment presets.",
+                  "url": "https://bukkbeek.itch.io/natureblocks",
+                  "image": "https://img.youtube.com/vi/DkaFuiqf3uc/hqdefault.jpg",
+                  "author": { "@id": "https://bukkbeek.github.io/#person" },
+                  "offers": {
+                    "@type": "Offer",
+                    "url": "https://bukkbeek.itch.io/natureblocks",
+                    "availability": "https://schema.org/InStock",
+                    "priceCurrency": "USD"
+                  }
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                  "@type": "CreativeWork",
+                  "name": "Ceylon Blocks",
+                  "description": "Free Sri Lankan heritage-inspired low-poly 3D asset collection featuring cultural architecture and tropical environments.",
+                  "url": "https://bukkbeek.itch.io/",
+                  "image": "https://bukkbeek.github.io/images/artwork/ceylon-blocks-1.webp",
+                  "creator": { "@id": "https://bukkbeek.github.io/#person" },
+                  "genre": "3D asset pack"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                  "@type": "SoftwareApplication",
+                  "name": "Godot Pixel Renderer",
+                  "applicationCategory": "DeveloperApplication",
+                  "applicationSubCategory": "Rendering tool",
+                  "operatingSystem": "Godot 4",
+                  "description": "Open-source 3D-to-pixel-art renderer for Godot 4 that converts 3D models into retro pixel art and exports frame-by-frame animations. Featured by Games From Scratch.",
+                  "url": "https://github.com/bukkbeek/GodotPixelRenderer",
+                  "image": "https://bukkbeek.github.io/images/tools/pixel-renderer-screenshot.webp",
+                  "author": { "@id": "https://bukkbeek.github.io/#person" },
+                  "isAccessibleForFree": true
+                }
+              }
+            ]
+          },
+          {
+            "@type": "ItemList",
+            "@id": "https://bukkbeek.github.io/#portfolio",
+            "name": "Selected game art and development projects",
+            "itemListOrder": "https://schema.org/ItemListOrderAscending",
+            "numberOfItems": 6,
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                  "@type": "VideoGame",
+                  "name": "REBEL.101",
+                  "description": "Solo-developed dystopian tank combat game — game design, programming, 3D art, UI and VFX by BUKKBEEK.",
+                  "url": "https://bukkbeek.itch.io/tanks-gone-rogue",
+                  "genre": "Action",
+                  "gamePlatform": "PC",
+                  "applicationCategory": "Game"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                  "@type": "VideoGame",
+                  "name": "Lancer Tactics",
+                  "description": "VFX artist on the digital adaptation of the Lancer TTRPG by Wickworks — explosions, weapon effects, shields and line effects.",
+                  "url": "https://wick.itch.io/lancer-tactics",
+                  "genre": "Tactics RPG",
+                  "gamePlatform": "PC"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                  "@type": "VideoGame",
+                  "name": "Warminer",
+                  "description": "Lead 3D artist on a sci-fi RTS — futuristic environments and optimized game assets in Unity.",
+                  "genre": "Real-time strategy",
+                  "gamePlatform": "PC"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                  "@type": "VideoGame",
+                  "name": "EION",
+                  "description": "Dystopian 3D side-scrolling adventure with base building and real-time strategy elements, built in Godot.",
+                  "genre": "Adventure",
+                  "gamePlatform": "PC"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                  "@type": "VideoGame",
+                  "name": "Universe Island",
+                  "description": "Game planner and lead 3D designer — flat-shaded low-poly visual identity and promotional trailer for an action-adventure title.",
+                  "genre": "Action-adventure",
+                  "gamePlatform": "PC"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 6,
+                "item": {
+                  "@type": "CreativeWork",
+                  "name": "Nomad's Barge",
+                  "description": "Weathered fantasy airship 3D model featured in the game Bone and Arrow by Skew Back Studios.",
+                  "image": "https://bukkbeek.github.io/images/environments/lakeview-bakery.webp",
+                  "creator": { "@id": "https://bukkbeek.github.io/#person" }
+                }
+              }
+            ]
           }
-        ],
-        "knowsAbout": [
-          "3D Generalist",
-          "VFX Artist",
-          "3D Modeling",
-          "Game Asset Development", 
-          "Low-Poly Art",
-          "Low Poly Modeling",
-          "Cartoonish 3D Art",
-          "Stylized 3D",
-          "Stylized Game Art",
-          "Cartoonish Game Assets",
-          "Unity 3D",
-          "Unreal Engine",
-          "Blender",
-          "Godot",
-          "Godot 4",
-          "Game Development",
-          "Asset Optimization", 
-          "VFX",
-          "Cartoonish VFX",
-          "Godot VFX Effects",
-          "EffectBlocks VFX Toolkit",
-          "Godot Particle Effects",
-          "Stylized Game Effects",
-          "Low-Poly VFX Toolkit",
-          "Stylized Particle Effects",
-          "Pixel Art Rendering",
-          "3D to Pixel Art Conversion",
-          "Godot Pixel Renderer",
-          "Animation",
-          "Texturing",
-          "Rigging",
-          "Mobile Game Development",
-          "Indie Game Development",
-          "VR Development",
-          "Game Environment Design",
-          "Stylized Environment Art",
-          "Character Modeling",
-          "Cartoonish 3D Modeling",
-          "Sri Lankan Cultural Heritage",
-          "Ceylon Heritage Assets",
-          "Tropical Environment Assets",
-          "Godot Shader Effects",
-          "Game VFX Development",
-          "Retro Pixel Effects"
-        ],
-        "workExample": [
-          {
-            "@type": "CreativeWork",
-            "name": "Ceylon Blocks",
-            "description": "Sri Lankan heritage-inspired 3D asset collection featuring cultural architecture and tropical environments",
-            "url": "https://sketchfab.com/models/94ed7d1d4983453891616dc321ad1967/embed"
-          },
-          {
-            "@type": "CreativeWork", 
-            "name": "Warminer RTS Assets",
-            "description": "Sci-fi RTS game asset development including futuristic environments and vehicles",
-            "creator": "@type: Person, name: BUKKBEEK"
-          },
-          {
-            "@type": "CreativeWork",
-            "name": "Tanks Gone Rogue",
-            "description": "Complete 3D game development including assets, environments, and gameplay mechanics",
-            "url": "https://bukkbeek.itch.io/tanks-gone-rogue"
-          },
-          {
-            "@type": "SoftwareApplication",
-            "name": "Godot Pixel Renderer",
-            "description": "Open-source 3D to pixel art renderer for Godot 4+ that transforms 3D models into retro pixel art with animation export",
-            "url": "https://github.com/bukkbeek/GodotPixelRenderer",
-            "applicationCategory": "Game Development Tool",
-            "operatingSystem": "Cross-platform"
-          },
-          {
-            "@type": "CreativeWork",
-            "name": "EffectBlocks VFX Toolkit",
-            "description": "Best-selling low-poly stylized VFX effects pack for Godot featuring particle effects, shaders, and visual effects",
-                         "url": "https://bukkbeek.itch.io/effectblocks",
-             "genre": "Game Development Resource"
-           }
-        ],
-        "email": "bukkbeek3d@gmail.com",
-        "contactPoint": {
-          "@type": "ContactPoint",
-          "email": "bukkbeek3d@gmail.com",
-          "contactType": "Business Inquiries",
-          "availableLanguage": ["English"]
-        }
+        ]
       }
     </script>
-    <script type="module" crossorigin src="/assets/index-DHp0D7mC.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-Ctz2gRUD.css">
+    <script type="module" crossorigin src="/assets/index-d-CSkAst.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/react-7wPi3zZe.js">
+    <link rel="modulepreload" crossorigin href="/assets/motion-CwomRNqE.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-BNSS84Nj.css">
   </head>
 
   <body>
     <div id="root"></div>
+
+    <!--
+      Content for crawlers and AI agents that do not execute JavaScript.
+      Google renders the site; several LLM/agent crawlers do not.
+    -->
+    <noscript>
+      <h1>BUKKBEEK — Jude Udumullage, 3D game artist &amp; Godot developer</h1>
+      <p>
+        Freelance 3D generalist, VFX artist and Godot developer from Sri Lanka, based in Ontario,
+        Canada. I make stylized low-poly, game-ready 3D assets and tools for Godot, Unity and
+        Unreal, and I am available for commissions.
+      </p>
+
+      <h2>Godot asset packs</h2>
+      <ul>
+        <li>
+          <strong>EffectBlocks</strong> — 100+ customizable low-poly stylized 3D VFX effects for
+          Godot: fire, smoke, explosions, magic, energy, decals and space effects.
+          <a href="https://bukkbeek.itch.io/effectblocks">bukkbeek.itch.io/effectblocks</a>
+        </li>
+        <li>
+          <strong>NatureBlocks</strong> — 500+ stylized nature assets for Godot with procedural
+          terrain generation, vegetation scatter tools, materials, shaders and environment presets.
+          <a href="https://bukkbeek.itch.io/natureblocks">bukkbeek.itch.io/natureblocks</a>
+        </li>
+        <li>
+          <strong>Ceylon Blocks</strong> — free Sri Lankan heritage-inspired low-poly 3D asset
+          collection celebrating cultural architecture and tropical environments.
+        </li>
+      </ul>
+
+      <h2>Developer tools</h2>
+      <ul>
+        <li><strong>Godot Pixel Renderer</strong> — open-source 3D-to-pixel-art renderer for Godot 4.</li>
+        <li><strong>Godot FPS Template</strong> — modular FPS starter with movement, weapons, enemy AI and vehicles.</li>
+        <li><strong>Godot Terrain Generator</strong> — GridMap terrain with tiles, buildings, roads and procedural forests.</li>
+        <li><strong>wikiBlocks</strong> — file-based markdown wiki for building a personal knowledge base.</li>
+      </ul>
+
+      <h2>Selected projects</h2>
+      <ul>
+        <li><strong>REBEL.101</strong> — solo-developed dystopian tank combat game (design, code, art, VFX).</li>
+        <li><strong>Lancer Tactics</strong> — VFX artist on the Lancer TTRPG digital adaptation.</li>
+        <li><strong>Warminer</strong> — lead 3D artist on a sci-fi RTS.</li>
+        <li><strong>EION</strong> — dystopian 3D side-scrolling adventure in Godot.</li>
+        <li><strong>Universe Island</strong> — flat-shaded low-poly art direction and trailer.</li>
+        <li><strong>Nomad's Barge</strong> — fantasy airship featured in the game Bone and Arrow.</li>
+      </ul>
+
+      <h2>Environments</h2>
+      <ul>
+        <li>Warminer, Lakeview Bakery, Forest Ruins, Moon City, Car Factory, Universe Island,
+          Creepy Creams, Space Lab and Underwater VFX scenes.</li>
+      </ul>
+
+      <h2>Contact</h2>
+      <ul>
+        <li>Email: <a href="mailto:bukkbeek3d@gmail.com">bukkbeek3d@gmail.com</a></li>
+        <li>Itch.io: <a href="https://bukkbeek.itch.io/">bukkbeek.itch.io</a></li>
+        <li>GitHub: <a href="https://github.com/bukkbeek">github.com/bukkbeek</a></li>
+        <li>Sketchfab: <a href="https://sketchfab.com/bukkbeek">sketchfab.com/bukkbeek</a></li>
+        <li>YouTube: <a href="https://www.youtube.com/@bukkbeek">youtube.com/@bukkbeek</a></li>
+        <li>Bluesky: <a href="https://bsky.app/profile/bukkbeek.github.io">bukkbeek.github.io</a></li>
+        <li>Discord: bukkbeek</li>
+      </ul>
+
+      <p>
+        A machine-readable summary is available at <a href="/llms.txt">/llms.txt</a>.
+        This page requires JavaScript to display the full interactive portfolio.
+      </p>
+    </noscript>
+
     <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
-    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
   </body>
 </html>

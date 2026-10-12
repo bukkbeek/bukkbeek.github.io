@@ -1,0 +1,1 @@
+import{r,c as a}from"./react-7wPi3zZe.js";import{k as f}from"./index-d-CSkAst.js";var e=a.useId||(()=>{}),n=0;function v(o){const[s,u]=r.useState(e());return f(()=>{o||u(t=>t!=null?t:String(n++))},[o]),o||(s?`radix-${s}`:"")}export{v as u};

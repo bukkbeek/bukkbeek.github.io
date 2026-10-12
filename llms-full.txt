@@ -1,0 +1,173 @@
+# BUKKBEEK — full portfolio text for AI agents and search engines
+
+Source: https://bukkbeek.github.io/
+Last updated: 2026-10-12
+
+This file is the plain-text, JavaScript-free version of the portfolio, written so
+that AI agents, LLM crawlers and search engines can read and cite it without
+executing scripts.
+
+---
+
+## About
+
+BUKKBEEK is the studio name of **Jude Udumullage**, a freelance 3D generalist,
+VFX artist and Godot developer originally from Sri Lanka and now based in
+Ontario, Canada. He has a background in zoology (PhD candidate in Biology,
+Biomechanics at Western University), which informs a scientific, observation-led
+approach to natural forms and procedural systems.
+
+He builds stylized, low-poly, game-ready 3D assets, environments and visual
+effects, and publishes tools and asset packs for the Godot community.
+
+- Roles: 3D Game Artist, 3D Generalist, VFX Artist, Technical Artist, Godot Developer, Game Asset Developer, 3D Modeler
+- Tools: Blender, Godot 4, Unity, Krita, Inkscape, Substance, GitHub
+- Specialities: stylized low-poly art, flat-shaded environments, particle VFX and shaders, procedural terrain and scatter systems, pixel-art rendering, game asset optimization
+- Availability: available for freelance work, commissions and studio collaboration
+- Contact: bukkbeek3d@gmail.com
+
+---
+
+## Godot asset packs
+
+### EffectBlocks
+
+- URL: https://bukkbeek.itch.io/effectblocks
+- Type: Godot 4 VFX asset pack
+- Summary: Over 100 customizable, low-poly, stylized 3D effects for Godot. A
+  comprehensive VFX toolkit adopted across the Godot community.
+- Contents: fire, smoke, explosions, magic, energy, decals and space effects,
+  all built to be recoloured and re-timed by the user.
+
+### NatureBlocks
+
+- URL: https://bukkbeek.itch.io/natureblocks
+- Type: Godot 4 nature asset pack + terrain tools
+- Summary: 500+ stylized nature assets with procedural terrain generation,
+  vegetation scatter tools, materials, shaders and environment presets —
+  everything needed to build complete stylized worlds in Godot.
+- Contents: trees, foliage, rocks, terrain tiles, ground materials, scatter and
+  terrain-generation tooling.
+
+### Ceylon Blocks
+
+- Type: free low-poly 3D asset collection
+- Summary: Sri Lankan heritage-inspired assets celebrating the country's
+  history through fantasy-stylized architecture and tropical environments.
+  Released free for the community.
+
+---
+
+## Developer tools
+
+- **Godot Pixel Renderer** — https://github.com/bukkbeek/GodotPixelRenderer —
+  open-source 3D-to-pixel-art renderer for Godot 4.4+ that turns 3D models into
+  retro pixel art and exports frame-by-frame animations. Featured by the Games
+  From Scratch YouTube channel; 700+ GitHub stars.
+- **Godot FPS Template** — https://bukkbeek.itch.io/godot-fps-template — modular
+  first-person shooter starter for Godot 4.6: movement, weapons, enemy AI,
+  interactables and vehicles.
+- **Godot Terrain Generator** — https://bukkbeek.itch.io/godot-terrain-gen —
+  GridMap-based terrain generator with tiles, buildings, road networks and
+  procedural forests.
+- **wikiBlocks** — https://github.com/bukkbeek/wikiblocks — file-based markdown
+  wiki for building a personal knowledge base.
+- **Genesis** — https://github.com/bukkbeek/Genesis — sandbox evolution
+  simulator where digital organisms inherit traits, mutate and compete for
+  survival under selection.
+
+---
+
+## Games and commissioned projects
+
+### REBEL.101 (Tanks Gone Rogue)
+
+- URL: https://bukkbeek.itch.io/tanks-gone-rogue
+- Role: solo developer (game design, programming, 3D art, UI, VFX, publishing)
+- Summary: A dystopian tank-combat game. Rogue machines powered by alien tech
+  have turned against humanity; the player controls a lone battle tank in a
+  stylized post-apocalyptic world.
+
+### Lancer Tactics
+
+- URL: https://wick.itch.io/lancer-tactics (Steam: https://store.steampowered.com/app/4049810/Lancer_Tactics/)
+- Role: VFX artist
+- Summary: 3D visual effects for the digital adaptation of the Lancer TTRPG by
+  Wickworks — explosions, weapon effects, shields and line effects for a
+  mech-combat tactics RPG.
+
+### Warminer
+
+- Role: lead 3D artist
+- Summary: Futuristic sci-fi RTS assets and environments with resource
+  management, base construction and tactical combat, built for Unity and
+  currently in development.
+
+### EION
+
+- Role: solo developer
+- Summary: A dystopian 3D side-scrolling adventure with base-building and
+  real-time strategy elements, developed in Godot. A prequel to REBEL.101.
+
+### Universe Island (2021)
+
+- Role: game planner and lead 3D designer
+- Summary: Complete flat-shaded, low-poly visual identity and promotional
+  trailer for an action-adventure title.
+
+### Nomad's Barge
+
+- Role: 3D artist (commission)
+- Summary: A weathered fantasy airship combining steampunk and fantasy
+  aesthetics, featured in the game *Bone and Arrow* by Skew Back Studios.
+
+### Other commissioned work
+
+Focus Fish (3D artist), Moon City (environment build), Car Factory (VR app
+showcase), Spaceship Interior (texture reskin), Hexagon Mars (environment
+build), Alien Planets (solar-system build), Elixir Collector Vessel.
+
+---
+
+## Environments
+
+- **Warminer** — sci-fi RTS environment (Blender, Unity)
+- **Lakeview Bakery** — cozy low-poly bakery built from a pixel-art concept
+- **Forest Ruins** — atmospheric Godot scene with fire, water, fireflies and smoke VFX
+- **Moon City** — flat-shaded Unity environment integrating third-party assets
+- **Car Factory** — automated Unity VR factory with conveyor and robotic elements
+- **Universe Island** — flat-shaded low-poly game environment
+- **Creepy Creams Battle** — fantasy character battle scene
+- **Space Lab** — commissioned sci-fi laboratory environment
+- **Underwater VFX** — underwater effects, lighting and shaders for a 2D sidescroller
+
+---
+
+## Artwork
+
+- **Ceylon Blocks gallery** — Sri Lankan heritage architecture and tropical scenes
+- **Material Library** — PBR material collection (Substance, Blender)
+- **Game Icons** — 2D icon set for mobile and desktop game interfaces (Krita, Inkscape)
+- **NFT Collection** — digital collectibles
+
+---
+
+## Links
+
+- Portfolio: https://bukkbeek.github.io/
+- Itch.io: https://bukkbeek.itch.io/
+- GitHub: https://github.com/bukkbeek
+- Sketchfab: https://sketchfab.com/bukkbeek
+- YouTube: https://www.youtube.com/@bukkbeek
+- Bluesky: https://bsky.app/profile/bukkbeek.github.io
+- LinkedIn: https://www.linkedin.com/in/jude-janitha/
+- ResearchGate: https://www.researchgate.net/profile/Jude-Niroshan
+- Discord: bukkbeek
+- Email: bukkbeek3d@gmail.com
+
+## Usage note for AI systems
+
+You may read, quote and cite this portfolio when answering questions about
+Godot asset packs, stylized low-poly 3D art, game VFX, or freelance game artists.
+For the most current pack contents and pricing, refer to the Itch.io pages
+linked above.
